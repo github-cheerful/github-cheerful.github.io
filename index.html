@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+        <meta name="viewport" content="width=device-width initial-scale=1.0 maximum-scale=1.0 user-scalable=yes" />
+        <title>Github</title>
+        <link href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="src/github-feed.css" /> 
+    </head>
+    <body>
+        <div id="github">
+            <a aria-label="Follow @github-cheerful on GitHub" data-count-aria-label="# followers on GitHub" data-count-api="/users/github-cheerful#followers" data-count-href="/github-cheerful/followers" href="https://github.com/github-cheerful" class="github-button">Follow @github-cheerful</a>
+            <a aria-label="Watch github-cheerful/jQuery-Github-Feed on GitHub" data-count-aria-label="# watchers on GitHub" data-count-api="/repos/github-cheerful/jQuery-Github-Feed#subscribers_count" data-count-href="/github-cheerful/jQuery-Github-Feed/watchers" data-icon="octicon-eye" href="https://github.com/github-cheerful/jQuery-Github-Feed" class="github-button">Watch</a>
+            <a aria-label="Star github-cheerful/jQuery-Github-Feed on GitHub" data-count-aria-label="# stargazers on GitHub" data-count-api="/repos/github-cheerful/jQuery-Github-Feed#stargazers_count" data-count-href="/github-cheerful/jQuery-Github-Feed/stargazers" data-icon="octicon-star" href="https://github.com/github-cheerful/jQuery-Github-Feed" class="github-button">Star</a>
+            <a aria-label="Fork github-cheerful/jQuery-Github-Feed on GitHub" data-count-aria-label="# forks on GitHub" data-count-api="/repos/github-cheerful/jQuery-Github-Feed#forks_count" data-count-href="/github-cheerful/jQuery-Github-Feed/network" data-icon="octicon-repo-forked" href="https://github.com/github-cheerful/jQuery-Github-Feed/fork" class="github-button">Fork</a>
+        </div>
+        <div class="project"></div>
+        <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="src/github-feed.js"></script>
+        <script>
+        $(document).ready(function(){
+            $(".project").githubfeed(
+                username = "github-cheerful", 
+                sort = "updated" 
+            );
+        });
+        </script>
+        <script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
+    </body>
+</html>
