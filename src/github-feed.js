@@ -8,7 +8,7 @@ $.fn.githubfeed = function(g, h) {
     j += '  <div class="feed github-cheerfulactiv" style="display:none"></div>';
     j += '</div>';
     j += '<div class="foot">';
-    j += '  Github Feed <a href="https://github.com/github-cheerful/jQuery-Github-Feed" class="jgf" target="_blank">made with <i class="octicon octicon-heart" style="color:salmon"></i></a>';
+    j += '  Github Feed <a href="https://github.com/github-cheerful/github-cheerful.github.io" class="jgf" target="_blank">made with <i class="octicon octicon-heart" style="color:salmon"></i></a>';
     j += '</div>';
     j += '</div>';
     $(this).html(j);
