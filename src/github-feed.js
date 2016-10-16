@@ -3,12 +3,12 @@ $.fn.githubfeed = function(g, h) {
     j += '<div class="head"></div>';
     j += '<div class="gftabs"><div class="gftab aktip" data-dip="repos">Repositories</div><div class="gftab" data-dip="activ">Activity</div><div class="gftab" data-dip="gists">Gists</div></div>';
     j += '<div class="bod">';
-    j += '  <div class="feed igosnrepos"></div>';
-    j += '  <div class="feed igosngists" style="display:none"></div>';
-    j += '  <div class="feed igosnactiv" style="display:none"></div>';
+    j += '  <div class="feed github-cheerfulrepos"></div>';
+    j += '  <div class="feed github-cheerfulgists" style="display:none"></div>';
+    j += '  <div class="feed github-cheerfulactiv" style="display:none"></div>';
     j += '</div>';
     j += '<div class="foot">';
-    j += '  Github Feed <a href="https://github.com/igosn/jQuery-Github-Feed" class="jgf" target="_blank">made with <i class="octicon octicon-heart" style="color:salmon"></i></a>';
+    j += '  Github Feed <a href="https://github.com/github-cheerful/jQuery-Github-Feed" class="jgf" target="_blank">made with <i class="octicon octicon-heart" style="color:salmon"></i></a>';
     j += '</div>';
     j += '</div>';
     $(this).html(j);
