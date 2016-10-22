@@ -1,7 +1,7 @@
 $.fn.githubfeed = function(g, h) {
     var j = '<div class="github-feed">';
     j += '<div class="head"></div>';
-    j += '<div class="gftabs"><div class="gftab aktip" data-dip="repos">Repositories</div><div class="gftab" data-dip="activ">Activity</div><div class="gftab" data-dip="gists">Gists</div></div>';
+    j += '<div class="gftabs"><div class="gftab aktip" data-dip="repos">Repositories</div><div class="gftab" data-dip="gists">Gists</div></div>';
     j += '<div class="bod">';
     j += '  <div class="feed github-cheerfulrepos"></div>';
     j += '  <div class="feed github-cheerfulgists" style="display:none"></div>';
